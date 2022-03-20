@@ -3,9 +3,11 @@
   padding: 0;
   margin: 0;
 }
-
+.ui.cards {
+  margin: 10px 0px;
+}
 .ui.cards > .card > .image {
-  height: 250px;
+  height: 300px;
   padding: 20px;
   background: #fff;
   margin: auto;
@@ -14,6 +16,10 @@
   height: 100%;
   max-width: 100%;
   width: auto;
+}
+.heading {
+  padding-left: 30px;
+  color: antiquewhite;
 }
 .ui.cards > .card > .content > .header {
   height: 48px;
@@ -40,10 +46,6 @@
 .ui.menu.fixed {
   height: 60px;
   padding-top: 15px;
-}
-
-.ui.grid.container {
-  margin-top: 45px;
 }
 
 .ui.grid > .row {
